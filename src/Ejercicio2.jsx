@@ -9,7 +9,7 @@ export default function Ejercicio1() {
   const handleChange = event => {
     const { name, value } = event.target;
     setFormData({
-      ...formData,
+      ...formData,  
       [name]: value,
     });
   };

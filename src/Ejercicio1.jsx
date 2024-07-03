@@ -60,7 +60,7 @@ export default function Ejercicio1() {
             <option value="tarjeta de credito">Tarjeta de credito</option>
           </select>
         </div>
-      </form>
+      </form>   
       <button onClick={handleSubmit}>Comprar</button>
       <p onClick={handleSubmit}>Articulo al comprar {formData.nombre} y su precio con el descuento es {formData.precio}</p>
     </div> 
