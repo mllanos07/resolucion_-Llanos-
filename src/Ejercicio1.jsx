@@ -14,8 +14,14 @@ export default function Ejercicio1() {
     });
   };
   const handleSubmit = () =>{
-    if(formData.metodo === contado/Efectivo)
-      const res = formData.precio  
+    if(formData.metodo === "contado/Efectivo")
+      (20 * formData) / 100
+    if(formData.metodo === "transferencia bancaria")
+      (15 * formData) / 100
+    if(formData.metodo === "tarjeta de debito")
+      (5 * formData) / 100
+    if(formData.metodo === "tarjeta de credito")
+      window.alert("usted no tiene descuentos")
   }
 
   return (
